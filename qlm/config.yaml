@@ -1,0 +1,18 @@
+max_batch_size: 10
+
+workload_tokens: 100
+
+slo_granularity: 100
+
+model_swap_time: 100
+
+token_throughput:
+  unsloth/Llama-3.2-1B-Instruct: 10000
+  meta-llama/Llama-3.1-70B-Instruct: 300
+  meta-llama/Llama-3.1-8B-Instruct: 700
+
+gurobi:
+  access_id: NULL
+  secret_key: NULL
+  license: NULL
+

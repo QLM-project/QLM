@@ -1,0 +1,75 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.cache/
+pytest_cache/
+.nox/
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.pid
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Secret keys and sensitive files
+.env
+*.key
+*.pem
+
+# Linting / analysis
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Docker / CI-related files
+*.envrc
+*.dockerfile
+
+# Neovim-specific files
+*.swp      # Swap files
+*.swo      # Swap files
+*.swn      # Swap files
+*.un~      # Undo files
+*.backup   # Backup files
+*.nvimlog  # Neovim log files
+session.vim  # Neovim session files
+.cache/nvim/
+*.lua~
+
+# Plugin-specific files
+plugged/
+packer_compiled.lua
+
+# Dataset
+data/ShareGPT_V3_unfiltered_cleaned_split.json
