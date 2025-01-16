@@ -47,7 +47,7 @@ pip install -e .
 Setup the project directory variable in shell
 
 ```
-export PROJECT_DIR=/path/to/qlm
+export QLMPROJDIR=/path/to/qlm
 ```
 
 Run the following command to test the basic functionality of QLM
